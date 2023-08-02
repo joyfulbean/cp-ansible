@@ -12,7 +12,7 @@ tags:
   - kafka
   - application
 dependencies: {}
-repository: https://github.com/confluentinc/cp-ansible
+repository: https://github.com/joyfulbean/cp-ansible.git
 documentation: https://docs.confluent.io/ansible/current/overview.html
 homepage: https://github.com/confluentinc/cp-ansible
 issues: https://github.com/confluentinc/cp-ansible/issues
