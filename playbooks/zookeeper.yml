@@ -1,6 +1,6 @@
 ---
 - name: Zookeeper Status Finding
-  hosts: zookeeper
+  hosts: "{{ hosts }}"
   gather_facts: false
   tags: zookeeper
   environment: "{{ proxy_env }}"

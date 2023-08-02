@@ -92,6 +92,7 @@
   ansible.builtin.pip:
     name: pip
     extra_args: --upgrade
+  ignore_errors: yes
   tags: package
 
 - name: Install pip packages
